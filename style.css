@@ -1,15 +1,20 @@
 body{
     background-color: #F5F5F5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .container{
     background-color: #E9E9E9;
     margin: auto;
+    margin-top: 280px;
     width: 600px;
+    box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
 }
 
 .header{
-    padding: 20px;
+    padding: 40px;
 }
 
 .flex-container{
@@ -17,4 +22,18 @@ body{
     background-color: #006B6B;
     justify-content: space-around;
     padding: 20px;
+}
+
+.header-title{
+    color: #006F6F;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.header-subtitle{
+    color:#008584;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 15px;    
 }

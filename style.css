@@ -19,9 +19,7 @@ body{
 
 .flex-container{
     display: flex;
-    background-color: #006B6B;
     justify-content: space-around;
-    padding: 20px;
 }
 
 .header-title{
@@ -36,4 +34,51 @@ body{
     font-size: 19px;
     font-weight: 600;
     margin-bottom: 15px;    
+}
+
+.col-1{
+    background-color: #006767;
+    width: 50%;
+    padding: 20px;
+    color: #FFF;
+}
+
+.col-2{
+    background-color: #008584;
+    width: 50%;
+    padding: 20px;
+    color: #FFF;
+}
+
+.subscription-title{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.price{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.month{
+    font-style: italic;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.button{
+    width: 100%;
+    padding: 15px 32px;
+    color: #006767;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #CCCCCC;
+    margin-top: 20px;
+    cursor: pointer;    
+}
+
+.button:hover{
+    background-color: #E9E9E9;
 }
